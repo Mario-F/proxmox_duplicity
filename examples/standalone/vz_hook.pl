@@ -32,7 +32,7 @@ if ($phase eq 'job-start' ||
 	# Start duplicity backup on job-end
     if ($phase eq 'job-end') {
         if(system("/usr/bin/duply /etc/duply/$duply_config backup") > 0) {
-			print "Failed to execute external Backup! $!"
+			print "Failed to execute external Backup! $!";
 			exit(1);
 		}
     }
