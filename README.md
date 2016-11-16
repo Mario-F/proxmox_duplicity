@@ -1,5 +1,6 @@
 # proxmox_duplicity
 Scripts for backup proxmox virtual machines with duplicity
+A German StepByStep Tutorial is available under: [blog.tincit.de](https://blog.tincit.de/series/duplicity-duply-mit-proxmoxve-vzdump/)<br />
 
 # Description
 This Howto will help to store your ProxmoxVE Backups to an offsite storage location with duplicity in a encrypted and bandwidth efficient way.
